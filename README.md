@@ -46,8 +46,7 @@ To quickly compute squares, I created a dictionary that mapped the string form
 of a digit 0-9 to its square (as an int). 
 
 
-Files
-------
+# Files
 
 * `happy.py`: The main code that contains the function that checks whether or
   not a number is happy, as well as driver code to check which of the numbers
