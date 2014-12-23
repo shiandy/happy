@@ -5,8 +5,7 @@ Playing around with some stuff.
 
 Code to calculate [happy numbers](https://en.wikipedia.org/wiki/Happy_number)
 
-Approach
----------
+# Approach
 
 Given a number n, we generate a sequence by taking the sum of the squares of its
 digits to get n1. Then we do the same to n1 to get n2, and so on. The number n
@@ -34,8 +33,7 @@ So all numbers greater than 99 become a number less than or equal to 99 in this
 process. Then, the code in `happy_experiment.py` verifies that all of these
 numbers from 1 to 99 either ends in 1 or the sequence described above. 
 
-Performance
------------
+# Performance
 
 The basic way to compute whether or not a number is happy is to apply the
 algorithm and at every step check if the number is 1 or 4. I found that by
@@ -61,6 +59,6 @@ Files
 * `test_happy.py`: Contains unit tests.
 
 
-References
-https://en.wikipedia.org/wiki/Happy_number
+### References
 
+[https://en.wikipedia.org/wiki/Happy_number](https://en.wikipedia.org/wiki/Happy_number)
