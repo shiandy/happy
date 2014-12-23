@@ -59,3 +59,8 @@ Files
   end in the "non-convergent" sequence given above. 
 
 * `test_happy.py`: Contains unit tests.
+
+
+References
+https://en.wikipedia.org/wiki/Happy_number
+
