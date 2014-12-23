@@ -1,5 +1,4 @@
 import time
-import argparse
 
 # cheap way to do squares
 squares = dict([(c, int(c)**2) for c in "0123456789"])
